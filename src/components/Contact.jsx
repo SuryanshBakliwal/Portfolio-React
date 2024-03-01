@@ -6,22 +6,10 @@ export default function Contact() {
       <footer class="text-center text-white">
         <div class="container pt-4">
           <section class="mb-4">
-            
-            
             <a
               data-mdb-ripple-init
               class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-            >
-              <i class="fab fa-google"></i>
-            </a>
-
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
+              href="https://www.instagram.com/suryansh.bakliwal/?igsh=NnEOOG1uanJjOGJ2"
               role="button"
               data-mdb-ripple-color="dark"
             >
@@ -31,7 +19,7 @@ export default function Contact() {
             <a
               data-mdb-ripple-init
               class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
+              href="https://www.linkedin.com/in/suryansh-bakliwal-193303211/"
               role="button"
               data-mdb-ripple-color="dark"
             >
@@ -40,7 +28,7 @@ export default function Contact() {
             <a
               data-mdb-ripple-init
               class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
+              href="https://github.com/SuryanshBakliwal"
               role="button"
               data-mdb-ripple-color="dark"
             >
