@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: aqua;
+  height: 2px;
+  width: 100%;
+  top: 80%;
+  left: 0%;
+}
+
+.main-cont {
+  height: calc(100vh - 116px);
+  /* background-color: aliceblue; */
+}
+
+.main-container {
+  /* height: calc(100% - 116px); */
+  width: 100%;
+}
+
+p {
+  color: rgb(216, 213, 209);
+  text-align: justify;
+}
+
+.top-container {
+  height: auto;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main-cont h1 {
+  font-size: 5.5rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed&display=swap");
+
+.skill-cont > h1 {
+  /* font-weight: bold; */
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+.skill-name {
+  width: 40vw;
+  color: #e8eaf6;
+  font-weight: bold;
+}
+
+.score {
+  height: 10px;
+  width: 40vw;
+  background: white;
+}
+.score-sub-1 {
+  height: 100%;
+  width: 32vw;
+  background-color: green;
+}
+.score-sub-2 {
+  height: 100%;
+  width: 36vw;
+  background-color: green;
+}
+.score-sub-3 {
+  height: 100%;
+  width: 38vw;
+  background-color: green;
+}
+.score-sub-4 {
+  height: 100%;
+  width: 34vw;
+  background-color: green;
+}
+.score-sub-5 {
+  height: 100%;
+  width: 36vw;
+  background-color: green;
+}
+.score-sub-6 {
+  height: 100%;
+  width: 32vw;
+  background-color: green;
+}
+.score-sub-7 {
+  height: 100%;
+  width: 34.8vw;
+  background-color: green;
+}
+.score-sub-8 {
+  height: 100%;
+  width: 28vw;
+  background-color: green;
+}
+.score-sub-9 {
+  height: 100%;
+  width: 36.4vw;
+  background-color: green;
+}
+.score-sub-10 {
+  height: 100%;
+  width: 32vw;
+  background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-cont h1 {
+    font-size: 2.5rem;
+  }
+
+  .top-container {
+    /* height: 300px; */
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
